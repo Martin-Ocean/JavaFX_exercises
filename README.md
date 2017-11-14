@@ -1,1 +1,1 @@
-# JavaFX_exercises
+# Java_exercises
