@@ -41,7 +41,7 @@ public class GenericBubbleSort {
         }
 
         System.out.println("\n\n========================After Sort=======================");
-        //sort
+        //mergeSort
         for (int i = 1; i <comparator.list.size() && needNextPass ; i++) {
             needNextPass = false;
             for (int j = 0; j < comparator.list.size()-i; j++) {
@@ -67,7 +67,7 @@ public class GenericBubbleSort {
             System.out.print(student.toString());
         }
         System.out.println("\n\n========================After Sort=======================");
-        // sort
+        // mergeSort
         needNextPass = true;
         for (int i = 1; i <comparable.list.size() && needNextPass ; i++) {
             needNextPass = false;
